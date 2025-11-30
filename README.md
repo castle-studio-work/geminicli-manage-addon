@@ -90,7 +90,7 @@ prompt = """
 I will launch the Geminicli Addon Manager TUI tool for you.
 
 IMPORTANT INSTRUCTIONS:
-1. Use Ctrl+C to interact with the TUI tool (arrow keys, space, enter)
+1. Use Ctrl+F to interact with the TUI tool (arrow keys, space, enter)
 2. After making changes, you MUST restart Gemini CLI for the new settings to take effect
 
 Running the tool now...
@@ -352,7 +352,7 @@ prompt = """
 I will launch the Geminicli Addon Manager TUI tool for you.
 
 IMPORTANT INSTRUCTIONS:
-1. Use Ctrl+C to interact with the TUI tool (arrow keys, space, enter)
+1. Use Ctrl+F to interact with the TUI tool (arrow keys, space, enter)
 2. After making changes, you MUST restart Gemini CLI for the new settings to take effect
 
 Running the tool now...
