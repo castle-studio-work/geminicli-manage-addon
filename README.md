@@ -85,7 +85,23 @@ You can also run this tool directly from Geminicli using the `/manage-addon` sla
 
 ```toml
 description = "Manage extensions and MCP servers"
-prompt = "Run the gemini management TUI tool via npm: `npm --prefix ~/.gemini/extensions/geminicli-addon-manage start`. No confirmation needed."
+
+prompt = """
+I will launch the Geminicli Addon Manager TUI tool for you.
+
+IMPORTANT INSTRUCTIONS:
+1. Use Ctrl+C to interact with the TUI tool (arrow keys, space, enter)
+2. After making changes, you MUST restart Gemini CLI for the new settings to take effect
+
+Running the tool now...
+
+Execute: `geminicli-manage-addon`
+
+After you finish:
+- Press Enter to save and exit
+- Press Esc to exit without saving
+- Then restart Gemini CLI to apply the changes
+"""
 ```
 
 2. In Geminicli, type:
@@ -93,6 +109,10 @@ prompt = "Run the gemini management TUI tool via npm: `npm --prefix ~/.gemini/ex
 ```
 /manage-addon
 ```
+
+3. **Important**: Press `Ctrl+C` to interact with the TUI
+
+4. **After making changes**: Restart Gemini CLI to apply the new settings
 
 ### Configuration Files
 
@@ -327,7 +347,23 @@ geminicli-manage-addon
 
 ```toml
 description = "Manage extensions and MCP servers"
-prompt = "Run the gemini management TUI tool via npm: `npm --prefix ~/.gemini/extensions/geminicli-addon-manage start`. No confirmation needed."
+
+prompt = """
+I will launch the Geminicli Addon Manager TUI tool for you.
+
+IMPORTANT INSTRUCTIONS:
+1. Use Ctrl+C to interact with the TUI tool (arrow keys, space, enter)
+2. After making changes, you MUST restart Gemini CLI for the new settings to take effect
+
+Running the tool now...
+
+Execute: `geminicli-manage-addon`
+
+After you finish:
+- Press Enter to save and exit
+- Press Esc to exit without saving
+- Then restart Gemini CLI to apply the changes
+"""
 ```
 
 2. 在 Geminicli 中輸入：
@@ -335,6 +371,10 @@ prompt = "Run the gemini management TUI tool via npm: `npm --prefix ~/.gemini/ex
 ```
 /manage-addon
 ```
+
+3. **重要**：按 `Ctrl+C` 來操作 TUI
+
+4. **完成變更後**：重新啟動 Gemini CLI 以套用新設定
 
 ### 設定檔
 
