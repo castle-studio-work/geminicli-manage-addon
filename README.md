@@ -110,7 +110,7 @@ After you finish:
 /manage-addon
 ```
 
-3. **Important**: Press `Ctrl+C` to interact with the TUI
+3. **Important**: Press `Ctrl+F` to interact with the TUI
 
 4. **After making changes**: Restart Gemini CLI to apply the new settings
 
@@ -372,7 +372,7 @@ After you finish:
 /manage-addon
 ```
 
-3. **重要**：按 `Ctrl+C` 來操作 TUI
+3. **重要**：按 `Ctrl+F` 來操作 TUI
 
 4. **完成變更後**：重新啟動 Gemini CLI 以套用新設定
 
