@@ -41,7 +41,7 @@ git commit -m "Initial commit: Geminicli Addon Manager v1.0.0"
 ### 2. 在 GitHub 上建立新的 repository
 
 1. 前往 https://github.com/new
-2. Repository name: `geminicli-addon-manage`
+2. Repository name: `geminicli-manage-addon`
 3. Description: `TUI for managing Geminicli extensions and MCP servers`
 4. 選擇 Public
 5. **不要**勾選 "Add a README file"（我們已經有了）
@@ -51,7 +51,7 @@ git commit -m "Initial commit: Geminicli Addon Manager v1.0.0"
 
 ```bash
 # 替換成你的 GitHub username
-git remote add origin https://github.com/YOUR_USERNAME/geminicli-addon-manage.git
+git remote add origin https://github.com/castle-studio-work/geminicli-manage-addon.git
 git branch -M main
 git push -u origin main
 ```
@@ -64,12 +64,12 @@ git push -u origin main
 {
   "author": "Your Name <your.email@example.com>",
   "repository": {
-    "url": "https://github.com/YOUR_USERNAME/geminicli-addon-manage.git"
+    "url": "https://github.com/castle-studio-work/geminicli-manage-addon.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/geminicli-addon-manage/issues"
+    "url": "https://github.com/castle-studio-work/geminicli-manage-addon/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/geminicli-addon-manage#readme"
+  "homepage": "https://github.com/castle-studio-work/geminicli-manage-addon#readme"
 }
 ```
 

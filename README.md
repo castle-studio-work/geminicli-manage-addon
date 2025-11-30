@@ -22,21 +22,7 @@ A Text-based User Interface (TUI) tool for managing [Geminicli](https://github.c
 
 ### Screenshots
 
-```
-Geminicli Extension & MCP Server Manager
-
-> [x] chrome-devtools-mcp
-    [x] chrome-devtools (MCP Server)
-  [ ] github
-    [x] github (MCP Server)
-
---- Standalone MCP Servers ---
-  [x] zen (Standalone)
-  [ ] pointer (Standalone)
-  [ ] context7 (Standalone)
-
-Ready. Use arrow keys to navigate, Space to toggle, Enter to save & exit.
-```
+![Geminicli Manage Addon Showcase](public/showcase.png)
 
 ### Installation
 
@@ -48,14 +34,14 @@ Ready. Use arrow keys to navigate, Space to toggle, Enter to save & exit.
 #### Install from npm (Recommended)
 
 ```bash
-npm install -g geminicli-addon-manage
+npm install -g geminicli-manage-addon
 ```
 
 #### Install from source
 
 ```bash
-git clone https://github.com/yourusername/geminicli-addon-manage.git
-cd geminicli-addon-manage
+git clone https://github.com/yourusername/geminicli-manage-addon.git
+cd geminicli-manage-addon
 npm install
 npm link
 ```
@@ -167,8 +153,8 @@ Standalone MCP servers (defined in `settings.json`) are managed via the `mcp.exc
 #### Setup
 
 ```bash
-git clone https://github.com/yourusername/geminicli-addon-manage.git
-cd geminicli-addon-manage
+git clone https://github.com/castle-studio-work/geminicli-manage-addon.git
+cd geminicli-manage-addon
 npm install
 ```
 
@@ -181,7 +167,7 @@ npm start
 #### Project Structure
 
 ```
-geminicli-addon-manage/
+geminicli-manage-addon/
 ├── index.js          # Entry point
 ├── ui.js             # TUI logic and components
 ├── package.json      # Project configuration
@@ -249,9 +235,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-- 🐛 [Report a bug](https://github.com/yourusername/geminicli-addon-manage/issues)
-- 💡 [Request a feature](https://github.com/yourusername/geminicli-addon-manage/issues)
-- 📖 [Read the documentation](https://github.com/yourusername/geminicli-addon-manage#readme)
+- 🐛 [Report a bug](https://github.com/castle-studio-work/geminicli-manage-addon/issues)
+- 💡 [Request a feature](https://github.com/castle-studio-work/geminicli-manage-addon/issues)
+- 📖 [Read the documentation](https://github.com/castle-studio-work/geminicli-manage-addon#readme)
 
 ### Changelog
 
@@ -284,21 +270,7 @@ If you encounter any issues or have questions:
 
 ### 畫面截圖
 
-```
-Geminicli Extension & MCP Server Manager
-
-> [x] chrome-devtools-mcp
-    [x] chrome-devtools (MCP Server)
-  [ ] github
-    [x] github (MCP Server)
-
---- Standalone MCP Servers ---
-  [x] zen (Standalone)
-  [ ] pointer (Standalone)
-  [ ] context7 (Standalone)
-
-Ready. Use arrow keys to navigate, Space to toggle, Enter to save & exit.
-```
+![Geminicli Manage Addon Showcase](public/showcase.png)
 
 ### 安裝
 
@@ -310,14 +282,14 @@ Ready. Use arrow keys to navigate, Space to toggle, Enter to save & exit.
 #### 從 npm 安裝（推薦）
 
 ```bash
-npm install -g geminicli-addon-manage
+npm install -g geminicli-manage-addon
 ```
 
 #### 從原始碼安裝
 
 ```bash
-git clone https://github.com/yourusername/geminicli-addon-manage.git
-cd geminicli-addon-manage
+git clone https://github.com/castle-studio-work/geminicli-manage-addon.git
+cd geminicli-manage-addon
 npm install
 npm link
 ```
@@ -429,8 +401,8 @@ After you finish:
 #### 設定
 
 ```bash
-git clone https://github.com/yourusername/geminicli-addon-manage.git
-cd geminicli-addon-manage
+git clone https://github.com/castle-studio-work/geminicli-manage-addon.git
+cd geminicli-manage-addon
 npm install
 ```
 
@@ -443,7 +415,7 @@ npm start
 #### 專案結構
 
 ```
-geminicli-addon-manage/
+geminicli-manage-addon/
 ├── index.js          # 入口點
 ├── ui.js             # TUI 邏輯和元件
 ├── package.json      # 專案設定
@@ -511,9 +483,9 @@ chmod 644 ~/.gemini/settings.json
 
 如果您遇到任何問題或有疑問：
 
-- 🐛 [回報錯誤](https://github.com/yourusername/geminicli-addon-manage/issues)
-- 💡 [請求功能](https://github.com/yourusername/geminicli-addon-manage/issues)
-- 📖 [閱讀文件](https://github.com/yourusername/geminicli-addon-manage#readme)
+- 🐛 [回報錯誤](https://github.com/castle-studio-work/geminicli-manage-addon/issues)
+- 💡 [請求功能](https://github.com/castle-studio-work/geminicli-manage-addon/issues)
+- 📖 [閱讀文件](https://github.com/castle-studio-work/geminicli-manage-addon#readme)
 
 ### 更新日誌
 

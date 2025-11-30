@@ -1,6 +1,6 @@
 {
-    "name": "geminicli-addon-manage",
-    "version": "1.0.0",
+    "name": "geminicli-manage-addon",
+    "version": "1.0.1",
     "description": "TUI for managing Geminicli extensions and MCP servers",
     "main": "index.js",
     "type": "module",
@@ -18,16 +18,16 @@
         "extension-manager",
         "model-context-protocol"
     ],
-    "author": "Your Name <your.email@example.com>",
+    "author": "Paul Chen <daubas.chen@gmail.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/geminicli-addon-manage.git"
+        "url": "https://github.com/castle-studio-work/geminicli-manage-addon.git"
     },
     "bugs": {
-        "url": "https://github.com/yourusername/geminicli-addon-manage/issues"
+        "url": "https://github.com/castle-studio-work/geminicli-manage-addon/issues"
     },
-    "homepage": "https://github.com/yourusername/geminicli-addon-manage#readme",
+    "homepage": "https://github.com/castle-studio-work/geminicli-manage-addon/blob/main/README.md",
     "engines": {
         "node": ">=18.0.0"
     },
