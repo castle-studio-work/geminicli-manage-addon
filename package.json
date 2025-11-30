@@ -1,0 +1,38 @@
+{
+    "name": "geminicli-addon-manage",
+    "version": "1.0.0",
+    "description": "TUI for managing Geminicli extensions and MCP servers",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "geminicli-manage-addon": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "geminicli",
+        "mcp",
+        "tui",
+        "cli",
+        "extension-manager",
+        "model-context-protocol"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/geminicli-addon-manage.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/geminicli-addon-manage/issues"
+    },
+    "homepage": "https://github.com/yourusername/geminicli-addon-manage#readme",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "ink": "^5.0.0",
+        "react": "^18.0.0"
+    }
+}
