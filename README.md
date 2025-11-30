@@ -2,6 +2,8 @@
 
 [English](#english) | [繁體中文](#繁體中文)
 
+![Geminicli Manage Addon Showcase](public/showcase.png)
+
 ---
 
 ## English
