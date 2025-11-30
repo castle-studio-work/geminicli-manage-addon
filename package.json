@@ -1,11 +1,11 @@
 {
     "name": "geminicli-manage-addon",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "TUI for managing Geminicli extensions and MCP servers",
     "main": "index.js",
     "type": "module",
     "bin": {
-        "geminicli-manage-addon": "./index.js"
+        "geminicli-manage-addon": "index.js"
     },
     "scripts": {
         "start": "node index.js"
@@ -22,7 +22,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/castle-studio-work/geminicli-manage-addon.git"
+        "url": "git+https://github.com/castle-studio-work/geminicli-manage-addon.git"
     },
     "bugs": {
         "url": "https://github.com/castle-studio-work/geminicli-manage-addon/issues"
